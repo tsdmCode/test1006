@@ -15,7 +15,7 @@
   </head>
   <body>
     <header id="global-header">
-      <img src="./assets/Blibado.png" alt="logo" />
+      <img src="./assets/images/Blibado.png" alt="logo" />
       <h1>Vi ved hvor du bor</h1>
     </header>
     <nav>
@@ -37,19 +37,19 @@
         <form id="signupform" onsubmit="submitForm(event)" novalidate>
           <label for="firstname" aria-label="First name">Fornavn:</label>
           <input id="firstname" name="firstname" type="text" placeholder="Indtast dit fornavn" />
-
+          <span class="error-placeholder"></span>
           <label for="lastname" aria-label="Last name">Efternavn:</label>
           <input id="lastname" name="lastname" type="text" placeholder="Indtast dit efternavn" />
-
+          <span class="error-placeholder"></span>
           <label for="email" aria-label="Email">Email:</label>
           <input id="email" name="email" type="email" placeholder="Indtast din email" />
-
+          <span class="error-placeholder"></span>
           <label for="password" aria-label="Password">Password:</label>
           <input id="password" name="password" type="password" placeholder="Indtast dit password" />
-
+          <span class="error-placeholder"></span>
           <label for="passwordRepeat" aria-label="Password">Gentag password:</label>
           <input id="passwordRepeat" name="passwordRepeat" type="password" placeholder="Indtast dit password igen" />
-
+          <span class="error-placeholder"></span>
           <input type="submit" value="Submit" />
         </form>
       </dialog>
