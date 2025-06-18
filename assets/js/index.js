@@ -84,8 +84,6 @@ const thumbnails = document.querySelectorAll('.thumbnail');
 
 thumbnails.forEach((el) => {
   el.addEventListener('click', () => {
-    const temp = bigImage.src;
     bigImage.src = el.src;
-    el.src = temp;
   });
 });
